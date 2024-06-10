@@ -595,6 +595,8 @@ section.pulse nav ul {
 .news{
     background-color: #C20E1A;
     color: #FFF;
+    height: 100%;
+    text-decoration: none;
 }
 
 .tuttelenews img{
@@ -603,7 +605,29 @@ section.pulse nav ul {
     object-fit: cover;
 }
 
-.news_artista h2{
+h2{
     margin: 50px auto;
     width: max-content;
+}
+
+
+
+/*CARRELLO-CARRELLO-CARRELLO-CARRELLO-CARRELLO-CARRELLO-*/
+
+.herosectioncarrello{
+    background-color: #0093D8;
+}
+
+.form{
+    display: flex;
+}
+
+#scadenzacvv{
+    display: flex;
+    justify-content: space-between;
+}
+
+#data, #cvv{
+    width: max-content;
+    margin: 0px;
 }
