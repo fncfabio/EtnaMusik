@@ -81,7 +81,7 @@ h1.herosectiontesto{
     font-style: normal;
     font-weight: 800;
     line-height: 110%;
-    max-width: 100%;
+    max-width: fit-content;
     margin: auto auto auto auto;
     padding:20px;
     align-items: center;
@@ -630,4 +630,16 @@ h2{
 #data, #cvv{
     width: max-content;
     margin: 0px;
+}
+
+@media(max-width: 1230px){
+
+    .cardshome{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        gap: 20px;
+    }
+
 }
