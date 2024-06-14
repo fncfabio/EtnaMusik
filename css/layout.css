@@ -6,11 +6,14 @@ body{
 h1, p{
     margin: 0px;
     padding: 0px;
-    width: max-content;
 }
 
 .testo{
 margin: auto auto auto auto;
+}
+
+a{
+    text-decoration: none;
 }
 
 header{
@@ -55,9 +58,15 @@ header .header nav ul {
     align-items: center;
 }
 
+.herosection{
+    position: relative;
+    height: 100vh;
+}
+
 .herosection img {
 width: 100%;
 object-fit: cover;
+height: 100vh;
 }
 
 .bottoneheader{
@@ -89,7 +98,19 @@ h1.herosectiontesto{
 .sfondoscritta{
     background-color: #000;
     width: 100%;
-    margin-top: -5px;
+    position:absolute;
+    bottom:0;
+}
+
+.sfondoscritta2{
+    background-color: #000;
+    width: 100%;
+    margin-top:-5px;
+}
+
+.fototesto1, .fototesto2{
+max-width: max-content;
+
 }
 
 .info1{
@@ -117,7 +138,7 @@ h1.herosectiontesto{
     line-height: 135%;
     color: #000;
     width: 750px;
-    margin: 50px auto auto auto;
+    margin: auto auto 25px auto;
     padding: 0px 0px 0px 0px;
 }
 
@@ -128,7 +149,7 @@ h1.herosectiontesto{
     font-style: normal;
     font-weight: 800;
     line-height: 100%;
-    margin: 100px auto auto auto;
+    margin: auto auto 50px auto;
     padding: 0px 0px 0px 0px;
     text-align: center;
 }
@@ -262,7 +283,7 @@ h1.herosectiontesto{
 footer{
     background-color: black;
     color: white;
-    margin: 50px auto auto auto;
+    margin: 0px auto auto auto;
     padding-top: 50px;
 }
 
@@ -351,8 +372,8 @@ section.pulse nav ul {
         margin: 100px auto auto auto;
        }
 
-       #lineup{
-        margin: 100px auto auto auto;
+       #lineup, #gorillaz, #newspage{
+        margin: 50px auto auto auto;
        }
 
        #pulsestage.titolo, #rockrimstage.titolo{
@@ -461,6 +482,22 @@ section.pulse nav ul {
     color: white;
     }
 
+#titolo2stage{
+    margin-top:50px;
+}
+
+#titolopulse, #titolorock{
+    margin-bottom: 0px;
+}
+
+#titolocatania, #titolosiracusa, #titoloenna, #titolopalermo, #titolomessina{
+    margin: 50px auto 0px auto;
+    font-weight: bold;
+}
+
+#introcibo{
+    margin-top: 50px;
+}
     /*pag_artisti-pag_artisti-pag_artisti-pag_artisti-pag_artisti-pag_artisti-pag_artisti-pag_artisti-pag_artisti-*/
 
     .pagartista{
@@ -518,6 +555,15 @@ section.pulse nav ul {
         height: 600px;
         object-fit: cover;
     }
+
+    .indicazionenews{
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+
+    .luogonews{
+        font-weight: bold;
+    }
     /*LOCATION-LOCATION-LOCATION-LOCATION-LOCATION-LOCATION-LOCATION-LOCATION-LOCATION-*/
  .pianoprovenzana{
     display: flex;
@@ -531,6 +577,14 @@ section.pulse nav ul {
     height: auto;
     margin: 50px auto 50px auto;
  }
+
+ .primoelemento{
+    margin-top: 50px;
+ }
+
+#bottonelocation{
+    margin-bottom: 50px;
+}
 
 /*TICKET-TICKET-TICKET-TICKET-TICKET-TICKET-TICKET-TICKET-TICKET-TICKET-TICKET-TICKET-TICKET- */
 
@@ -605,9 +659,13 @@ section.pulse nav ul {
     object-fit: cover;
 }
 
-h2{
+h2.h2news{
     margin: 50px auto;
-    width: max-content;
+    width: 750px;
+}
+
+.hastag{
+    color: #0093D8;
 }
 
 
