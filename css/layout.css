@@ -617,6 +617,10 @@ section.pulse nav ul {
     margin: auto 0 auto auto;
 }
 
+.sezioneticket .titolo{
+    margin-top: 50px;
+}
+
 /*NEWS - NEWS - NEWS - NEWS - NEWS -NEWS - NEWS - NEWS - NEWS - */
 .tuttelenews{
         display: grid;
@@ -674,10 +678,30 @@ h2.h2news{
 
 .herosectioncarrello{
     background-color: #0093D8;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.herosectioncarrello h2{
+    width: max-content;
+    color: #FFF;
+}
+
+.herosectioncarrello h1{
+    margin: 0px;
+    color: #FFF;
 }
 
 .form{
     display: flex;
+    justify-content: space-around;
+}
+
+.form .titolo{
+    margin-top: 50px;
 }
 
 #scadenzacvv{
@@ -688,6 +712,43 @@ h2.h2news{
 #data, #cvv{
     width: max-content;
     margin: 0px;
+}
+
+.bottoneacquisto{
+    margin-bottom: 50px;
+}
+
+.casella{
+    border-style: solid;
+    border-color: #000;
+    border-width: 3px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.testofatturazione{
+    margin-bottom: 0;
+}
+
+/*ORDINE - ORDINE -ORDINE - ORDINE - ORDINE - ORDINE - ORDINE - */
+.herosectionordine{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.herosectionordine h1{
+    margin: 0px;
+    color: #FFF;
+}
+
+.herosectionordine h2{
+    width: max-content;
+    color: #FFF;
 }
 
 @media(max-width: 1230px){
