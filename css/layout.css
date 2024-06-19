@@ -120,6 +120,7 @@ max-width: max-content;
     margin: -5px 0px 0px 0px;
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
 }
 .info1 p {
     color: #FFF;
@@ -128,6 +129,7 @@ max-width: max-content;
     font-weight: 400;
     line-height: normal;
     margin: auto;
+    text-align: center;
 }
 
 .testo{
@@ -711,7 +713,8 @@ section.pulse nav ul {
 
 h2.h2news{
     margin: 50px auto;
-    width: 750px;
+    max-width: 750px;
+    text-align: center;
 }
 
 .hastag{
@@ -732,8 +735,9 @@ h2.h2news{
 }
 
 .herosectioncarrello h2{
-    width: max-content;
+    max-width: max-content;
     color: #FFF;
+    text-align: center;
 }
 
 .herosectioncarrello h1{
@@ -793,8 +797,9 @@ h2.h2news{
 }
 
 .herosectionordine h2{
-    width: max-content;
+    max-width: max-content;
     color: #FFF;
+    text-align: center;
 }
 
 /*MENU*/
