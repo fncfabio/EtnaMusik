@@ -860,6 +860,22 @@ h2.h2news{
     cursor: pointer;
   }
 
+  .info1 #scorrimento{
+    white-space: nowrap; /*non andare a capo*/
+  }
+
+  @keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+  }
+
+  #scorrimento{
+    display: inline-block; /*assume proprietà inline e block*/
+    padding-left: 100%;
+    animation: scroll 20s linear infinite;
+
+  }
+
 
   @media(max-width: 1300px){
 
