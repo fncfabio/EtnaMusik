@@ -700,6 +700,7 @@ section.pulse nav ul {
     color: #FFF;
     height: 100%;
     text-decoration: none;
+    max-width: 610px;
 }
 
 .tuttelenews img{
@@ -882,6 +883,15 @@ h2.h2news{
         gap: 20px;
     }
 
+    .tuttelenews{
+        display: grid;
+        gap:16px;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 610px;
+        margin: 50px auto;
+        
+}
+
 
 }
 
@@ -976,6 +986,8 @@ h2.h2news{
     .herosectioncarrello{
         padding: auto 20px;
     }
+
+  
    
 }
 
@@ -994,3 +1006,22 @@ div.biglietti{
 }
 
 }
+
+@media (max-width:650px){
+
+    .tuttelenews{
+        display: grid;
+        gap:16px;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 400px;
+        margin: 50px auto; 
+}
+
+.news{
+    max-width: 400px;
+}
+    
+.tuttelenews img{
+    display: none;
+}
+    }
