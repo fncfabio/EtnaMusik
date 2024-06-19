@@ -923,5 +923,74 @@ h2.h2news{
       ul li {
         display: block;
       }
+
+      .testo{
+        font-family: "indivisible", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 135%;
+        color: #000;
+        max-width: 750px;
+        margin: auto auto 25px auto;
+        padding: 0px 10px 0px 10px;
+    }   
+
+    .titolo{
+        color: #000;
+        font-family: "JetBrains Mono", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 100%;
+        margin: auto auto 50px auto;
+        padding: 0px 10px 0px 10px;
+        text-align: center;
+    }
+
+    h1.herosectiontesto, h1.fototesto1, h1.fototesto2{
+        font-size: 30px;
+        padding: 10px 10px 10px 10px;
+    }
+
+
+    .primoelemento{
+        margin-top: 50px;
+    }
+
+    .herosection {
+        position: relative;
+        height: 50vh;
+    }
+
+    .herosection img {
+        width: 100%;
+        object-fit: cover;
+        height: 50vh;
+    }
+
+    div.tipologiabiglietto{
+        width: 300px;
+    }
+
+    .herosectioncarrello{
+        padding: auto 20px;
+    }
    
+}
+
+@media (max-width:700px){
+
+div.biglietti{
+    height: 250px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#bottoneticket{
+    margin: auto;
+}
+
 }
