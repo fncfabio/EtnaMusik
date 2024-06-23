@@ -65,7 +65,7 @@ header .header nav ul {
 .herosection img {
 width: 100%;
 object-fit: cover;
-height: 100vh;
+height: 90vh;
 }
 
 .bottoneheader{
@@ -724,7 +724,7 @@ section.pulse nav ul {
 }
 
 .grupponews img{
-    max-width: 610px;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -1047,7 +1047,9 @@ h2.h2news{
     .herosectioncarrello{
         padding: auto 20px;
     }
-
+    .hastag{
+        color: #0093D8;
+    }
   
    
 }
@@ -1082,9 +1084,6 @@ div.biglietti{
     max-width: 400px;
 }
     
-.tuttelenews img{
-    display: none;
-}
 
 .cardartisti{
     background-color: #000;
