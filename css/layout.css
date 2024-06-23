@@ -794,6 +794,7 @@ h2.h2news{
 .herosectionordine h1{
     margin: 0px;
     color: #FFF;
+
 }
 
 .herosectionordine h2{
@@ -801,6 +802,21 @@ h2.h2news{
     color: #FFF;
     text-align: center;
 }
+
+.scaricabiglietto{
+    color: #FFF;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-top: 200px;
+}
+
+
+.scaricabiglietto .titolo{
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
 
 /*MENU*/
 .hamburger-lines {
