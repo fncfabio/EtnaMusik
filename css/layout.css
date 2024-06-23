@@ -1,6 +1,6 @@
 body{
-    margin: 5px;
     font-family: "JetBrains Mono", sans-serif;
+    margin: 0;
 }
 
 h1, p{
@@ -155,6 +155,11 @@ max-width: max-content;
     padding: 0px 0px 0px 0px;
     text-align: center;
 }
+
+header .header nav ul a:hover{
+    color:#C20E1A;
+}
+
 
 /*CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD- */
 .infoecard .testo {
@@ -559,9 +564,9 @@ section.pulse nav ul {
 
     .cardartisti{
         background-color: #000;
+        margin-top: 50px;
+        height: 700px;
         width: 500px;
-        height: 680px;
-        margin-top: 50px;  
     }
 
     .cardartisti .titolo{
@@ -572,8 +577,8 @@ section.pulse nav ul {
     }
 
     .cardartisti img{
-        width: 500px;
         height: 600px;
+        max-width: 100%;
         object-fit: cover;
     }
 
@@ -596,13 +601,13 @@ section.pulse nav ul {
         list-style-type: none;
         display: flex;
         justify-content: space-between;
-        gap: 20px;
-        margin: 0px;
+        gap: 10px;
         align-items: center;
         flex-wrap: wrap;
         max-width: 600px;
         margin: auto;
         color: #FFF;
+        padding: 0 20px;
     }
 
     .scopri {
@@ -674,8 +679,7 @@ section.pulse nav ul {
         gap:16px;
         grid-template-columns: repeat(2, 1fr);
         max-width: 1236px;
-        margin: 50px auto;
-        
+        margin: 50px auto;       
 }
 
 .intestazione{
@@ -809,6 +813,7 @@ h2.h2news{
     border-bottom-style: solid;
     border-bottom-width: 1px;
     margin-top: 200px;
+    max-width: max-content;
 }
 
 
@@ -933,6 +938,11 @@ h2.h2news{
 }
 
 @media (max-width:980px){
+
+
+    body{
+        margin: 5px;
+    }
 
     .hamburger-lines {
         display: flex;
@@ -1060,5 +1070,15 @@ div.biglietti{
     
 .tuttelenews img{
     display: none;
+}
+
+.cardartisti{
+    background-color: #000;
+    width: 300px;
+    height: 500%;
+}
+
+.cardartisti img{
+    height: 400px;
 }
     }
