@@ -160,6 +160,9 @@ header .header nav ul a:hover{
     color:#C20E1A;
 }
 
+header .header nav ul div:hover{
+    background-color: black;
+}
 
 /*CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD-CARD- */
 .infoecard .testo {
@@ -883,6 +886,10 @@ h2.h2news{
 
   .info1 #scorrimento{
     white-space: nowrap; /*non andare a capo*/
+  }
+
+  .info1{
+    overflow: hidden;
   }
 
   @keyframes scroll {
